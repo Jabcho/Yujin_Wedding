@@ -1,0 +1,50 @@
+
+#location_title{
+    width: 800px; height: 182px;
+    top: 0px; left: 0px;
+}
+
+#location{
+    display: flex; flex-direction: row;
+    width: 800px; height: 323.53px;
+    top: 182px;
+}
+
+.map_area{
+    width: 50%; height: 100%;
+}
+
+.map_area iframe{
+    width: 400px;  height: 300px;
+}
+
+.map_info{
+    width: 50%; height: 100%;
+    text-align: center;
+}
+
+.map_info dl dt{
+    font-size: 0.8rem;
+}
+
+.map_info dl dd{
+    font-size: 0.6rem;
+}
+
+#bus{
+    width: 800px; height: 117.156px;
+    top: 505.53px;
+    border: 2px black solid; /* 나중에 없애기 */
+}
+
+#account_title{
+    width: 800px; height: 222.99px;
+    top: 622.686px;
+}
+
+#account{
+    width: 800px; height: 295.95px;
+    top: 845.676px;
+    border: 2px black solid; /* 나중에 없애기 */
+
+}
