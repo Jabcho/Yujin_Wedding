@@ -9,6 +9,13 @@ html, body{ margin: 0; padding: 0; }
     border: 2px black; border-style: dashed; /* 나중에 없애기 */
 }
 
+.container:nth-child(3){
+    height: 1350px;
+}
+.container:nth-child(4){
+    height: 800px;
+}
+
 .item{
     display: flex; flex-direction: column;
     position: absolute;

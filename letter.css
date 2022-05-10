@@ -12,15 +12,17 @@
 }
 
 .call{
+    justify-content: space-around;
     border: 2px black solid; /* 나중에 없애기 */
-    width: 800px; height: 584.6px;
-    bottom: 0px;
+    width: 800px; height: 400px;
+    bottom: 100px;
     text-align: center;
+    padding: 1rem 0 1rem;
 }
+
 
 .call dl{
     width: 100%;
-    padding: 10px 0;
 }
 
 .call dl dt{
