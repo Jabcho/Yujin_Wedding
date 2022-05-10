@@ -1,5 +1,4 @@
-*{ box-sizing: border-box; 
-    font-size: 32px;/*나중에 없애기*/}
+*{ box-sizing: border-box; }
 html, body{ margin: 0; padding: 0; }
 
 .container{
@@ -14,6 +13,11 @@ html, body{ margin: 0; padding: 0; }
 }
 .container:nth-child(4){
     height: 800px;
+}
+
+.container:nth-child(5){
+    height: 1146px;
+    background-color: rgb(247, 248, 249);
 }
 
 .item{
