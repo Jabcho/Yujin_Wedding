@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="letter.css" />
     <link rel="stylesheet" href="gallery.css" />
     <link rel="stylesheet" href="location.css" />
+    <link rel="stylesheet" href="guest.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <!--container_1 : 표지-->
@@ -176,6 +178,80 @@
       </div>
     </div>
     <!--container_5 : 방명록-->
-    <div class="container"></div>
+    <div class="container">
+      <div id="guest" class="item">
+        <img src="./images/guestbook.png" />
+      </div>
+      <div id="guest_area" class="item">
+        <!--input+버튼1개-->
+        <form id="guestform">
+          <div class="write_box">
+            <dl>
+              <dt>Name</dt>
+              <dd>
+                <input type="text" id="Name" name="Name" maxlength="20" />
+              </dd>
+            </dl>
+            <dl>
+              <dt>Password</dt>
+              <dd>
+                <input
+                  type="password"
+                  id="Password"
+                  name="Password"
+                  maxlength="20"
+                />
+              </dd>
+            </dl>
+            <dl>
+              <dt>Message</dt>
+              <dd>
+                <input
+                  type="text"
+                  id="Message"
+                  name="Message"
+                  maxlength="200"
+                />
+              </dd>
+            </dl>
+          </div>
+          <div class="btn_area">
+            <button>축하메시지 남기기</button>
+          </div>
+        </form>
+        <!--방명록 목록 + 버튼2개-->
+        <div class="messages">
+          <ul></ul>
+          <!--방명록 목록-->
+          <div class="btn_area">
+            <button>더보기</button>
+            <button>전체보기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SNS 링크-->
+    <footer>
+      <ul class="sns_list">
+        <li>
+          <a href="https://www.facebook.com/">
+            <img src="./images/facebook_icon.png" width="11" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ko"
+          >
+            <img src="./images/kakao_icon.png" width="40" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/linkcopy_icon.png" width="25" />
+          </a>
+        </li>
+      </ul>
+      <div class="Jabcho">Jabcho</div>
+    </footer>
   </body>
 </html>

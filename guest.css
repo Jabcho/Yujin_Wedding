@@ -1,0 +1,98 @@
+#guest{
+    height: 230px;
+}
+
+#guest_area{
+    width: 800px; height: 916px;
+    border: solid 2px black;
+    position: absolute; top: 230px;
+    padding: 0 3% 10%;
+}
+
+form{
+    border: solid 2px blue;
+    width: 752px; height: 266px;
+    position: relative;
+}
+
+.write_box{
+    position: relative;
+    height: 147px;
+}
+.write_box dl{
+    border-bottom: 1px solid #828282;
+    color: #666;
+    padding: 5px 0;
+    height: 42.38px;
+    padding-top: 10px;
+}
+.write_box dl dt{
+    position: relative;
+    float: left;
+    width: 90px;
+    color: #666;
+    font-family: '나눔고딕';
+    letter-spacing: 0.3px;
+}
+.write_box dl dt::after{
+    content: ":";
+    position: absolute;
+    right: 0;
+}
+
+.write_box dl dd{
+    width: 648px;
+    float: right;
+    margin: 0;
+}
+.write_box dl dd input{
+    width: 100%;
+    border: 0;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+
+.write_box dl dd input:focus{
+    outline: 1px solid rgb(176, 176, 254);
+}
+
+form .btn_area{
+    height: 46px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+form .btn_area button{
+    width: 100%; height: 100%;
+    border: none;
+    background: #757575;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.messages{
+    position: relative;
+    width: 752px;
+    height: 650px;
+    margin-top: 35px;
+    border: solid 2px blue;
+}
+.messages ul{
+    margin: 0 20px;
+    border: solid 2px red;
+}
+.messages .btn_area{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; height: 45.99px;
+    position: absolute;
+    bottom: 0px;
+}
+.messages .btn_area button{
+    width: 49%; height: 100%;
+    border: none;
+    background: #757575;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+}
