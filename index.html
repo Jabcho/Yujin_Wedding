@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yujin</title>
+    <script
+      src="https://kit.fontawesome.com/5d02ac0fd7.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="cover.css" />
     <link rel="stylesheet" href="letter.css" />
@@ -123,25 +127,47 @@
           <div class="album-row row1">
             <!--img src="/images_gallery/1-1.jpg" class="gallery_img" />
             <img src="/images_gallery/1-2.jpg" class="gallery_img" /-->
-            <div class="album-col col1"></div>
-            <div class="album-col col2"></div>
+            <div class="album-col col1 img1"></div>
+            <div class="album-col col2 img2"></div>
           </div>
           <div class="album-row row2">
             <!--img src="/images_gallery/2-1.jpg" class="gallery_img" />
             <img src="/images_gallery/2-2.jpg" class="gallery_img" /-->
-            <div class="album-col col1"></div>
-            <div class="album-col col2"></div>
+            <div class="album-col col1 img3"></div>
+            <div class="album-col col2 img4"></div>
           </div>
           <div class="album-row row3">
             <!--img src="/images_gallery/3-1.png" class="gallery_img" />
             <img src="/images_gallery/3-2.jpg" class="gallery_img" />
             <img src="/images_gallery/3-3.jpg" class="gallery_img" /-->
-            <div class="album-col col1"></div>
-            <div class="album-col col2"></div>
-            <div class="album-col col3"></div>
+            <div class="album-col col1 img5"></div>
+            <div class="album-col col2 img6"></div>
+            <div class="album-col col3 img7"></div>
           </div>
         </div>
+        <!--갤러리 확대 : 평소에는 검은 화면 안보이게 해뒀다가, 이미지를 클릭하면 display: none; 설정 해제-->
+        <div class="big-img-container">
+          <!--선택된 이미지 띄우기 : 기본 설정은 display: none;이고, selected를 JS로 이동시키면서 띄워줄 수 있다-->
+          <div class="big-img img1 selected"></div>
+          <div class="big-img img2"></div>
+          <div class="big-img img3"></div>
+          <div class="big-img img4"></div>
+          <div class="big-img img5"></div>
+          <div class="big-img img6"></div>
+          <div class="big-img img7"></div>
+          <span class="counter_class">1 / 7</span>
+          <button class="indi_btn left">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="indi_btn right">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <button class="indi_btn close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
       </div>
+      <script src="gallery.js"></script>
     </div>
     <!--container_4 : 위치-->
     <div class="container">
