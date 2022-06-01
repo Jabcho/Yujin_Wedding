@@ -37,13 +37,3 @@ body {
 .text {
     font-family: serif;
 }
-
-/*왜하는걸까..?*/
-
-html,
-button,
-input,
-select,
-textarea {
-    font: 16px/1.2 "나눔명조", "Nanum Myeongjo", "맑은 고딕", "Malgun Gothic", "나눔고딕", "NanumGothic", "NanumGothicWEB", "돋움", Dotum, "굴림", Gulim, sans-serif;
-}
