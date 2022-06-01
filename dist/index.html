@@ -1,3 +1,4 @@
+<<<<<<< HEAD:dist/index.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -324,3 +325,288 @@
     </footer>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yujin</title>
+    <script
+      src="https://kit.fontawesome.com/5d02ac0fd7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cover.css" />
+    <link rel="stylesheet" href="letter.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="location.css" />
+    <link rel="stylesheet" href="guest.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <!--container_1 : 표지-->
+    <div class="container">
+      <div id="background" class="item">
+        <img src="/images/background.png" />
+      </div>
+      <div id="text1" class="item">
+        <div class="text">이유진</div>
+      </div>
+      <div id="logo" class="item"><img src="/images/logo.png" /></div>
+      <div id="text2" class="item">
+        <div class="text">너만을 위한 청첩장</div>
+      </div>
+      <div id="coverimage" class="item">
+        <img src="/images/cover.jpg" />
+      </div>
+      <div id="text3" class="item">
+        <div class="text">2022.05.21. SAT AM 11:00</div>
+        <div class="text">설악웨딩타운 4층 아트그레이스홀</div>
+      </div>
+    </div>
+    <!--container_2 : 본문-->
+    <div class="container">
+      <div id="dear" class="item">
+        <img src="/images/dear.png" />
+      </div>
+      <div id="text_letter" class="item">
+        <div class="text">
+          블라블라<br />
+          블라블라<br />
+          블라블라<br />
+          블라블라<br />
+          블라블라<br />
+          블라블라<br />
+        </div>
+      </div>
+      <!--연락처-->
+      <div class="call item text">
+        <dl class="call_list">
+          <dt>
+            <span>주땡</span>
+          </dt>
+          <dd>
+            <a href=""><img src="/images/call_icon.png" width="32" /></a>
+          </dd>
+          <dd>
+            <a href=""><img src="/images/sms_icon.png" width="36" /></a>
+          </dd>
+        </dl>
+        <dl class="call_list">
+          <dt>
+            <span>염</span>
+          </dt>
+          <dd>
+            <a href=""><img src="/images/call_icon.png" width="32" /></a>
+          </dd>
+          <dd>
+            <a href=""><img src="/images/sms_icon.png" width="36" /></a>
+          </dd>
+        </dl>
+        <dl class="call_list">
+          <dt>
+            <span>잡초</span>
+          </dt>
+          <dd>
+            <a href="tel:010-7192-5253"
+              ><img src="/images/call_icon.png" width="32"
+            /></a>
+          </dd>
+          <dd>
+            <a href="sms:010-7192-5253"
+              ><img src="/images/sms_icon.png" width="36"
+            /></a>
+          </dd>
+        </dl>
+        <dl class="call_list">
+          <dt>
+            <span>하지니</span>
+          </dt>
+          <dd>
+            <a href=""><img src="/images/call_icon.png" width="32" /></a>
+          </dd>
+          <dd>
+            <a href=""><img src="/images/sms_icon.png" width="36" /></a>
+          </dd>
+        </dl>
+        <dl class="call_list">
+          <dt>
+            <span>수갱</span>
+          </dt>
+          <dd>
+            <a href=""><img src="/images/call_icon.png" width="32" /></a>
+          </dd>
+          <dd>
+            <a href=""><img src="/images/sms_icon.png" width="36" /></a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <!--container_3 : 갤러리-->
+    <div class="container">
+      <div id="gallerytitle" class="item">
+        <img src="/images/gallery title.png" />
+      </div>
+      <div id="gallery" class="item">
+        <div id="album">
+          <!--album-row는 grid 사용, 이미지는 Background-->
+          <div class="album-row row1">
+            <!--img src="/images_gallery/1-1.jpg" class="gallery_img" />
+            <img src="/images_gallery/1-2.jpg" class="gallery_img" /-->
+            <div class="album-col col1 img1"></div>
+            <div class="album-col col2 img2"></div>
+          </div>
+          <div class="album-row row2">
+            <!--img src="/images_gallery/2-1.jpg" class="gallery_img" />
+            <img src="/images_gallery/2-2.jpg" class="gallery_img" /-->
+            <div class="album-col col1 img3"></div>
+            <div class="album-col col2 img4"></div>
+          </div>
+          <div class="album-row row3">
+            <!--img src="/images_gallery/3-1.png" class="gallery_img" />
+            <img src="/images_gallery/3-2.jpg" class="gallery_img" />
+            <img src="/images_gallery/3-3.jpg" class="gallery_img" /-->
+            <div class="album-col col1 img5"></div>
+            <div class="album-col col2 img6"></div>
+            <div class="album-col col3 img7"></div>
+          </div>
+        </div>
+        <!--갤러리 확대 : 평소에는 검은 화면 안보이게 해뒀다가, 이미지를 클릭하면 display: none; 설정 해제-->
+        <div class="big-img-container">
+          <!--선택된 이미지 띄우기 : 기본 설정은 display: none;이고, selected를 JS로 이동시키면서 띄워줄 수 있다-->
+          <div class="big-img img1 selected"></div>
+          <div class="big-img img2"></div>
+          <div class="big-img img3"></div>
+          <div class="big-img img4"></div>
+          <div class="big-img img5"></div>
+          <div class="big-img img6"></div>
+          <div class="big-img img7"></div>
+          <span class="counter_class">1 / 7</span>
+          <button class="indi_btn left">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="indi_btn right">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <button class="indi_btn close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <script src="gallery.js"></script>
+    </div>
+    <!--container_4 : 위치-->
+    <div class="container">
+      <div id="location_title" class="item">
+        <img src="/images/locationtitle.png" />
+      </div>
+      <div id="location" class="item">
+        <div class="map_area">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.2735503697554!2d126.62743281529228!3d36.883803679931404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357af8955e9bea79%3A0xf10c3190053b619e!2z7ISk7JWF7Juo65Sp7YOA7Jq0!5e0!3m2!1sko!2skr!4v1652135515487!5m2!1sko!2skr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="map_info">
+          <dl class="text">
+            <dt>&lt;설악웨딩타운 4층 아트그레이스홀&gt;</dt>
+            <dd>충남 당진시 남부로 122</dd>
+            <dd>041-355-7744</dd>
+          </dl>
+          <dl class="text">
+            <dt>&lt;전세버스&gt;</dt>
+            <dd>예식 당일 오전 8시 30분</dd>
+            <dd>서현역 2번출구 앞 (공항버스 정류장)</dd>
+          </dl>
+        </div>
+        <a href="tel:041-355-7744" class="call-button">
+          <img src="./images/loc_call_icon.png" />
+        </a>
+      </div>
+    </div>
+    <!--container_5 : 방명록-->
+    <div class="container">
+      <div id="guest" class="item">
+        <img src="./images/guestbook.png" />
+      </div>
+      <div id="guest_area" class="item">
+        <!--input+버튼1개-->
+        <form id="guestform">
+          <div class="write_box">
+            <dl>
+              <dt>Name</dt>
+              <dd>
+                <input type="text" id="Name" name="Name" maxlength="20" />
+              </dd>
+            </dl>
+            <dl>
+              <dt>Password</dt>
+              <dd>
+                <input
+                  type="password"
+                  id="Password"
+                  name="Password"
+                  maxlength="20"
+                />
+              </dd>
+            </dl>
+            <dl>
+              <dt>Message</dt>
+              <dd>
+                <input
+                  type="text"
+                  id="Message"
+                  name="Message"
+                  maxlength="200"
+                />
+              </dd>
+            </dl>
+          </div>
+          <div class="btn_area">
+            <button>축하메시지 남기기</button>
+          </div>
+        </form>
+        <!--방명록 목록 + 버튼2개-->
+        <div class="messages">
+          <ul></ul>
+          <!--방명록 목록-->
+          <div class="btn_area">
+            <button>더보기</button>
+            <button>전체보기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SNS 링크-->
+    <footer>
+      <ul class="sns_list">
+        <li>
+          <a href="https://www.facebook.com/">
+            <img src="./images/facebook_icon.png" width="11" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ko"
+          >
+            <img src="./images/kakao_icon.png" width="40" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/linkcopy_icon.png" width="25" />
+          </a>
+        </li>
+      </ul>
+      <div class="Jabcho">Jabcho</div>
+    </footer>
+  </body>
+</html>
+>>>>>>> 268b0049c5fd4a2a2d988c9bbfd8e24f202e73f7:index.html
