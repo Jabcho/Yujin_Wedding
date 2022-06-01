@@ -4,7 +4,7 @@ from flask_cors import CORS
 import api
 import config
 
-app = Flask(config.APP_NAME, static_folder=config.STATIC_DIR, template_folder=config.TEMPLATE_DIR)
+app = Flask(config.APP_NAME, static_url_path="", static_folder=config.STATIC_DIR, template_folder=config.TEMPLATE_DIR)
 CORS(app)
 
 app.config["JSON_AS_ASCII"] = False

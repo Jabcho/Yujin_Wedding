@@ -1,39 +1,67 @@
-#background{
-    width: 800px; height: 1423px;
+#background {
+    width: 800px;
+    height: 1423px;
 }
 
-#text1{
-    width: 690px; height: 82px;
-    top: 164px; left: 0px;
+#text1 {
+    width: 690px;
+    height: 82px;
+    top: 164px;
+    left: 0px;
 }
 
-#text1 div{
-    font-size: 55px; color: rgb(77, 31, 3); text-align: right; letter-spacing: 0.25em; line-height: 82px;
+#text1 div {
+    font-size: 55px;
+    color: rgb(77, 31, 3);
+    text-align: right;
+    letter-spacing: 0.25em;
+    line-height: 82px;
 }
 
-#text2{
-    width: 707px; height: 82px;
-    top: 336px; left: 0px;
+#text2 {
+    width: 707px;
+    height: 82px;
+    top: 336px;
+    left: 0px;
 }
 
-#text2 div{
-    font-family: serif; font-size: 30px; color: rgb(77, 31, 3); text-align: right; letter-spacing: 0.1em; line-height: 82px;
+#text2 div {
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(77, 31, 3);
+    text-align: right;
+    letter-spacing: 0.1em;
+    line-height: 82px;
 }
 
-#logo{
-    width: 339.5px; height: 103.938px;
-    top: 226px; left: 395px;
+#logo {
+    width: 339.5px;
+    height: 103.938px;
+    top: 226px;
+    left: 395px;
 }
 
-#coverimage{
-    max-width: 800px; max-height: 580.891px; width: 100%;
+#coverimage {
+    width: 800px;
+    height: 580.891px;
+    width: 100%;
     top: 509px;
+    background-image: url('./images/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-#text3{
-    top: 1159px; left: 101.516px; width: 694.672px; height: 49px;
+#text3 {
+    top: 1159px;
+    left: 101.516px;
+    width: 694.672px;
+    height: 49px;
 }
 
-#text3 div{
-    font-size: 33px; color: rgb(77, 31, 3); text-align: left; line-height: 49px;
+#text3 div {
+    font-size: 33px;
+    color: rgb(77, 31, 3);
+    text-align: left;
+    line-height: 49px;
 }

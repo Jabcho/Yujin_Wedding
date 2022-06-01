@@ -8,5 +8,5 @@ DATAFILE = "data.csv"
 DELIM = "|"
 
 BASE_DIR = os.path.dirname(__file__)
-STATIC_DIR = BASE_DIR
+STATIC_DIR = os.path.join(BASE_DIR, "dist")
 TEMPLATE_DIR = os.path.join(BASE_DIR, "dist")
