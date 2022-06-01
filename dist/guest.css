@@ -1,0 +1,88 @@
+#guest{
+    height: 230px;
+}
+
+#guest_area{
+    width: 800px; height: 916px;
+
+    position: absolute; top: 230px;
+    padding: 0 3% 10%;
+}
+
+form{
+    width: 752px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.write_box{
+    display: flex; flex-direction: column;
+    height: 240px;
+}
+.write_box dl{
+    display: flex;
+    border-bottom: 1px solid #828282;
+    color: #666;
+    padding: 5px 0;
+    height: 42.38px;
+    padding-top: 10px;
+}
+.write_box dl dt{
+    width: 90px;
+    color: #666;
+    font-family: '나눔고딕';
+    letter-spacing: 0.3px;
+    display: flex; justify-content: space-between;
+}
+.write_box dl dt::after{
+    content: ":";
+}
+
+.write_box dl dd{
+    width: calc(100% - 90px);
+    margin-left: 20px;
+}
+.write_box dl dd input{
+    width: 100%;
+    border: 0;
+    font-size: 1rem;
+    background-color: transparent;
+    font-family: '나눔명조', sans-serif;
+    color: #666;
+}
+
+
+.write_box dl dd input:focus{
+    outline: 1px solid rgb(176, 176, 254);
+}
+
+form .btn_area{
+    height: 46px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+form .btn_area button{
+    width: 100%; height: 100%;
+    border: none;
+    background: #757575;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+}
+form .btn_area button:hover{
+    cursor: pointer;
+}
+
+.messages{
+    display: flex; justify-content: center;
+    width: 752px;
+    min-height: 600px;
+    margin-top: 35px;
+}
+.messages ul{
+    display: inline-block;
+    width: 95%; height: 95%;
+    overflow: auto;
+    margin: 0;
+}

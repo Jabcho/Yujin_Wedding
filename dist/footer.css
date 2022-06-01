@@ -1,0 +1,31 @@
+footer{
+    margin: 0 auto;
+    width: 800px; height: 158.756px;
+    position: relative;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+    height: 81.98px;
+    padding: 20px 0;
+    list-style: none;
+    margin: 0;
+}
+
+footer ul li{
+    width: 266.66px; height: 100%;
+    border-right: 1px solid #adadad;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Git{
+    background-color: rgb(247, 248, 249);
+    height: calc(100% - 81.97px);
+    display: flex;  justify-content: center; align-items: center;
+}

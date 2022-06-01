@@ -1,0 +1,28 @@
+*{ box-sizing: border-box; }
+html, body{ margin: 0; padding: 0; }
+
+.container{
+    margin: 0 auto;
+    width: 800px; height: 1423px;
+    position: relative;
+}
+
+.container:nth-child(3){
+    height: 1350px;
+}
+.container:nth-child(4){
+    height: 800px;
+}
+
+.container:nth-child(5){
+    height: 1146px;
+    background-color: rgb(247, 248, 249);
+}
+
+.item{
+    display: flex; flex-direction: column;
+    position: absolute;
+}
+
+.text{  font-family: serif;  } /*왜하는걸까..?*/
+

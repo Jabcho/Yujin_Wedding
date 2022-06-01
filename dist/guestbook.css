@@ -1,0 +1,76 @@
+#guestbook{
+    padding: 0;
+}
+
+#guestbook li{
+    list-style: none;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 10px;
+}
+
+.guestitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: "Noto Sans KR", sans-serif;     font-size: 14px; 
+}
+
+.guest_top_name{
+    color: #333;
+}
+.guest_top_time{
+    color: #777;
+}
+
+.guestitem_text{
+    margin: 15px 0 10px;
+}
+.guestitem p{
+    margin: 0;
+    color: #777;
+    letter-spacing: -0.25px;
+}
+
+.msg_delete{
+    background-image: url(/images/del_icon.png);
+    background-size: 100%;
+    width: 8px; height: 8px;
+}
+.msg_delete:hover{
+    cursor: pointer;
+}
+
+.guestitem_pwcheck{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidePwArea{
+    display: none;
+}
+
+.guestitem_pwcheck input{
+    width: 100%;
+    background: #f4f3f1;
+    border: 0;
+    height: 28px;
+    text-align: center;
+    font-family: "나눔명조"; color: #666;
+}
+.guestitem_pwcheck input:focus{
+    outline: 1px solid rgb(176, 176, 254);
+}
+.pw_chk_btn{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px; border: 0;
+    width: 100%;
+    background: #757575;
+    text-align: center; color: #fff;
+}
+.pw_chk_btn:hover{
+    cursor: pointer;
+}
