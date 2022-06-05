@@ -16,4 +16,4 @@ def serve_htmls():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(host=config.APP_IP, port=config.APP_PORT)
+    app.run(host=config.APP_IP, port=config.APP_PORT, debug=True)

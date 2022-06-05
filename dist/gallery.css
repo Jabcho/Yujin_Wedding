@@ -1,17 +1,23 @@
-
-
-#gallerytitle{
-    width: 800px; height: 183px; top: 0px; left: 0px;
+#gallerytitle {
+    width: 800px;
+    height: 183px;
+    top: 0px;
+    left: 0px;
 }
 
-#gallery{
-    background-color: #f7f8f9; width: 800px; height: 1050.5px; bottom: 0px; padding: 3%;
+#gallery {
+    background-color: #f7f8f9;
+    width: 800px;
+    height: 1050.5px;
+    bottom: 0px;
+    padding: 3%;
 }
 
-#album{
+#album {
 
     overflow: hidden;
-    width: 752.25px;   height: 1002.75px;
+    width: 752.25px;
+    height: 1002.75px;
 }
 
 .album-row {
@@ -47,10 +53,12 @@
 
 .img1 {
     background-image: url(/images_gallery/1-1.jpg);
+    cursor: pointer;
 }
 
 .img2 {
     background-image: url(/images_gallery/1-2.jpg);
+    cursor: pointer;
 }
 
 #album .row1 .col2 {
@@ -59,22 +67,27 @@
 
 .img3 {
     background-image: url(/images_gallery/2-1.jpg);
+    cursor: pointer;
 }
 
 .img4 {
     background-image: url(/images_gallery/2-2.jpg);
+    cursor: pointer;
 }
 
 .img5 {
     background-image: url(/images_gallery/3-1.png);
+    cursor: pointer;
 }
 
 .img6 {
     background-image: url(/images_gallery/3-2.jpg);
+    cursor: pointer;
 }
 
 .img7 {
     background-image: url(/images_gallery/3-3.jpg);
+    cursor: pointer;
 }
 
 #album .row3 .col3 {
@@ -98,34 +111,49 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 60%; height: 60%;
+    width: 60%;
+    height: 60%;
     display: none;
 }
 
 .big-img-container .big-img.selected {
     display: block;
 }
-.big-img-container .counter_class{
-    position: fixed; top: 1rem; left: 1rem;
+
+.big-img-container .counter_class {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
     color: white;
 }
-.big-img-container .indi_btn{
+
+.big-img-container .indi_btn {
     color: #666;
     font-weight: bold;
     background-color: transparent;
 }
-.big-img-container .indi_btn:hover{
+
+.big-img-container .indi_btn:hover {
     color: white;
 }
-.big-img-container .indi_btn.left{
+
+.big-img-container .indi_btn.left {
     position: fixed;
-    top: 50%; left: 1rem; font-size: 2rem;
+    top: 50%;
+    left: 1rem;
+    font-size: 2rem;
 }
-.big-img-container .indi_btn.right{
+
+.big-img-container .indi_btn.right {
     position: fixed;
-    top: 50%; right: 1rem; font-size: 2rem;
+    top: 50%;
+    right: 1rem;
+    font-size: 2rem;
 }
-.big-img-container .indi_btn.close{
+
+.big-img-container .indi_btn.close {
     position: fixed;
-    top: 0.5rem; right: 1rem; font-size: 1.3rem;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.3rem;
 }
